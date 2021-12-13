@@ -5,7 +5,7 @@ namespace rm.Clock
 	/// <summary>
 	/// Defines clock methods.
 	/// </summary>
-	public interface IClock
+	public interface ISystemClock
 	{
 		DateTimeOffset UtcNow { get; }
 		DateTimeOffset Now { get; }

@@ -2,8 +2,8 @@
 
 namespace rm.Clock
 {
-	/// <inheritdoc cref="IClock"/>
-	public class Clock : IClock
+	/// <inheritdoc cref="ISystemClock"/>
+	public class SystemClock : ISystemClock
 	{
 		public DateTimeOffset UtcNow => DateTimeOffset.UtcNow;
 
