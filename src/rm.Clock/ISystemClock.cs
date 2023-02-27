@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace rm.Clock
+namespace rm.Clock;
+
+/// <summary>
+/// Defines clock methods.
+/// </summary>
+public interface ISystemClock
 {
-	/// <summary>
-	/// Defines clock methods.
-	/// </summary>
-	public interface ISystemClock
-	{
-		DateTimeOffset UtcNow { get; }
-		DateTimeOffset Now { get; }
-	}
+	DateTimeOffset UtcNow { get; }
+	DateTimeOffset Now { get; }
 }
