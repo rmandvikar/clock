@@ -6,6 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rm.Clock", "src\rm.Clock\rm.Clock.csproj", "{159C2787-16B7-4621-89C5-72E7EA6259DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8CFECBB-776C-4A98-91EA-A5A97EA87CDB}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rm.ClockTest", "tests\rm.ClockTest\rm.ClockTest.csproj", "{ACAE6D42-8448-47F7-852F-A942E30F8CB1}"
 EndProject
