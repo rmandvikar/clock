@@ -13,7 +13,7 @@ fi
 
 tag="v$version"
 
-dotnet nuget push .nupkg/rm.Clock."$version".nupkg \
+dotnet nuget push .nupkg/rmandvikar.Clock."$version".nupkg \
 	-k $(< ~/dump/.nuget.apikey) \
 	-s https://api.nuget.org/v3/index.json \
 	&& git push $(git remote) "$tag"

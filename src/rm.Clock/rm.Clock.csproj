@@ -8,6 +8,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591;NU1507</NoWarn>
     <LangVersion>latest</LangVersion>
+    <PackageId>rmandvikar.Clock</PackageId>
     <Description>Provides clock methods to ease unit testing.</Description>
     <PackageTags>clock</PackageTags>
     <RepositoryUrl>https://github.com/rmandvikar/clock</RepositoryUrl>
